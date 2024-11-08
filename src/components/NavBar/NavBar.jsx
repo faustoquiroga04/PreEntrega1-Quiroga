@@ -1,5 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget"
-
+import "./NavBar.css"
 function NavBar(){
     return (
         <nav>
@@ -8,8 +8,8 @@ function NavBar(){
             <li><a href="#">Smartphones</a></li>
             <li><a href="#">Notebooks</a></li>
             <li><a href="#">PC</a></li>
-            </ul>
             <CartWidget/>
+            </ul>
         </nav>
     )
 }
